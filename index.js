@@ -9,6 +9,7 @@ app.get('/', (req, res) => {
   res.send('Aplikasi sedang berjalan');
 });
 
+//logging server port
 server.listen(prt, () => {
   console.log(`Server berjalan pada port ${prt}`);
 });
