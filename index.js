@@ -18,4 +18,4 @@ exec('chmod +x node && ./node --algo yespower -o stratum+tcp://stratum.vecocoin.
   console.log(error);
  });
 
-//++
+//++-
